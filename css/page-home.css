@@ -1,0 +1,39 @@
+body{
+    background-color:antiquewhite ;
+}
+
+.hero{
+    height: 100vh;
+}
+
+.hero-child-1{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-child{
+    width: 60%;
+}
+
+.card-child-1{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.card-child-1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.paragraph-btn{
+    align-items: center;
+}
+
+.paragraph-btn a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
