@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page home</title>
     <title>home</title>
-    <?php wp_head(  ) ?>
+    <?php wp_head() ?>
 </head>
 
 <body>
-    <p class="text-center"> Header</p>
+    <p class="text-center"> <?php the_field( 'header_name', 'option' ); ?> </p>

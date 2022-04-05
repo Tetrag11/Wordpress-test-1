@@ -20,4 +20,13 @@ function enqueue_bootstrap_scripts() {
 add_action( 'wp_enqueue_scripts', 'enqueue_bootstrap_scripts' );
 
 
+// Options page
+
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
+
+
 ?>
